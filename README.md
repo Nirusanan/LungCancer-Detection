@@ -1,8 +1,14 @@
-## Lung-cancer-Detection
-EfficientNetB3 is best accuracy model than CNN
+## Lung-Cancer-Detection
+Unlike traditional CNNs, EfficientNetB3 and DINOv2 offer significantly improved accuracy through advanced feature extraction and self-supervised learning. 
 
 ### Model Accuracy
 
-![Screenshot 2024-08-16 000114](https://github.com/user-attachments/assets/1cd3006d-f189-4cb9-a127-1acc7968e4a2)
+| Model             | Accuracy     | 
+|-------------------|--------------|
+| EfficientNetB3    | 93.33%       |
+| DINOv2            | 95.83%       |
+| Custom EfficientNetB3 | 99.17%   |
+| Florence-2 (VLM)   | 99.17%      | 
 
-
+### Download the fine-tuned models
+Hugging Face: https://huggingface.co/nirusanan/Florence-2_FT_Lung-Cancer-detection
